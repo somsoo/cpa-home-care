@@ -1,4 +1,4 @@
-﻿title: "입주청소 & 홈케어 솔루션 정보센터"
+title: "입주청소 & 홈케어 솔루션 정보센터"
 description: "새집증후군, 입주청소, 이사청소 및 에어컨 가전 분해 세척 등 프리미엄 홈케어 정보를 제공합니다."
 url: "https://clean.enjoy-onepage.com"
 theme: minima
@@ -6,3 +6,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+exclude:
+  - AI_MAINTENANCE_RULES.md
+  - POST_LOG.md
+  - used_keywords.txt
+  - Gemfile
+  - Gemfile.lock
+  - README.md
